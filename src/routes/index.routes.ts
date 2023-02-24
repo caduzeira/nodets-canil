@@ -9,6 +9,6 @@ router.get('/dogs',PagesAnimals.Dogs)
 router.get('/cats',PagesAnimals.Cats)
 router.get('/fishes',PagesAnimals.Fishes)
 
-router.get('/',Search.Search)
+router.get('/search',Search.Search)
 
 export default router
